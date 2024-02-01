@@ -1,43 +1,20 @@
 # Lidar-Driver-With-DMA
 
- Fully Register based 2d lidar codes without using any IDE or any development environment.
+# Lidar Driver with DMA Support and Register-Based Control
 
- # Lidar Driver without IDE
-
-This project is a register-based Lidar driver written without using any Integrated Development Environment (IDE). The driver is designed to interface with a Lidar sensor and control it through direct register manipulation. The code is written in C and can be compiled using a suitable toolchain.
+This project is a register-based Lidar driver, developed without relying on any Integrated Development Environment (IDE). The driver provides low-level control over a Lidar sensor by directly manipulating hardware registers. Additionally, it incorporates DMA for efficient data transfer.
 
 ## Features
 
-- **Register-based Interaction:** The driver communicates with the Lidar sensor by directly manipulating the hardware registers, providing low-level control over the sensor functionalities.
+- **Register-based Interaction:** The driver communicates with the Lidar sensor by directly manipulating hardware registers, providing precise control over the sensor's functionalities.
 
-- **Platform Independence:** The code is intended to be platform-independent, allowing it to be used on various embedded systems without relying on a specific IDE.
+- **DMA Data Transfer:** Utilizing Direct Memory Access, the driver enhances data transfer efficiency, reducing the CPU's involvement in the process and optimizing overall performance.
 
-- **No External Dependencies:** The driver is designed to be lightweight and does not have external dependencies, making it easy to integrate into different projects.
+- **Platform Independence:** The code is designed to be platform-independent, making it adaptable to various embedded systems without the need for a specific IDE.
 
-## Usage
+- **No External Dependencies:** The lightweight driver does not rely on external dependencies, simplifying integration into different projects.
 
-1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/your-lidar-driver.git
-    ```
 
-2. Compile the code using your preferred toolchain:
-
-    ```bash
-    your-compiler your-lidar-driver/main.c -o lidar_driver
-    ```
-
-3. Flash the compiled binary onto your target platform.
-
-4. Execute the binary to run the Lidar driver.
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to the development of this Lidar driver, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), making it open and free for anyone to use and modify.
 
 
