@@ -14,7 +14,7 @@ This project is a register-based Lidar driver, developed without relying on any 
 
 - **No External Dependencies:** The lightweight driver does not rely on external dependencies, simplifying integration into different projects.
 
+## tfmini plus lidar
 
 
-
-
+![tfmini-plus-lidar-modul-ip65-su-ve-toza-karsi-dayanikli-31457-84-O](https://github.com/Aherte/Lidar-Driver-With-DMA/assets/55800601/e027be03-373c-4f3b-8493-a09fda0aa268)
